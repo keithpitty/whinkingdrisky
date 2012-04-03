@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.2'
+gem 'rails', '3.2.3'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -39,7 +39,7 @@ gem 'jquery-rails'
 
 
 # Refinery CMS
-gem 'refinerycms', '~> 2.0.0'
+gem 'refinerycms', '~> 2.0.3'
 
 # Specify additional Refinery CMS Extensions here (all optional):
 gem 'refinerycms-i18n',   '~> 2.0.0'
@@ -47,3 +47,6 @@ gem 'refinerycms-i18n',   '~> 2.0.0'
 #  gem 'refinerycms-inquiries', '~> 2.0.0'
 #  gem 'refinerycms-search', '~> 2.0.0'
 #  gem 'refinerycms-page-images', '~> 2.0.0'
+
+# Other gems
+gem 'heroku'
